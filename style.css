@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0 0;
+}
+
+.principal {
+    margin: 0 10rem;
+}
+
+.main-author {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-author div {
+    width: 300px;
+    height: 30px;
+    border: solid 1px black;
+    margin-top: 10px;
+}
+
+.display {
+    background-color: rgb(175, 175, 175);
+    border-radius: 5px;
+    border: solid 1px rgb(44, 44, 44);
+    width: 500px;
+    height: 600px;
+}

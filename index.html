@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblia Digital</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <div class="principal">
+        <div class="titulo">
+            <h1>Biblia Digital</h1>
+        </div>
+        <div class="main">
+            <div class="main-input">
+                <label>Digite o salmo desejado:</label>
+                <input id="input-salmo" type="text">
+                <button onclick="processar()">Processar</button>
+            </div>
+            <div class="main-author">
+                <label>Nome</label>
+                <div id="input-nome">
+                    <p id="nome-value"></p>
+                </div>
+                <label>Autores</label>
+                <div id="input-author">
+                    <p id="author-value"></p>
+                </div>
+                <label>Grupo:</label>
+                <div id="input-grupo">
+                    <p id="group-value"></p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h2 class="display-title">Versus:</h2>
+            <div class="display">
+                <ol id="lista-salmos">
+                    
+                </ol>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
